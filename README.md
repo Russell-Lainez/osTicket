@@ -41,7 +41,7 @@ After creating a virtual machine and virtual network in Azure, I downloaded all 
     ![image](https://github.com/user-attachments/assets/f31b8f56-c2f8-4872-8627-339b72d8e259)
     ![image](https://github.com/user-attachments/assets/951d6ed7-38c6-4f0a-9d1f-62780c59f5c3)
 
-  - Added the necessary extensions and configured Heidi SQL to create the database for osTicket to use on the backend
+  - Added the necessary extensions and configured Heidi SQL to create the backend database for osTicket 
 
     ![image](https://github.com/user-attachments/assets/18c173ce-b9ce-49a7-8d97-a8c5e70b03a7)
     ![image](https://github.com/user-attachments/assets/854b0d62-c81c-47b3-a9c2-d3777c7da69e)
@@ -66,24 +66,23 @@ After creating a virtual machine and virtual network in Azure, I downloaded all 
 
         ![image](https://github.com/user-attachments/assets/5928aec6-9a5f-4ecf-a44b-ecac54e78443)
    
-  - I created different teams to add the staff members too:
+  - I created different teams and added each staff member to a team:
       - Online Banking - Jane Doe
       - Level I Support - John Doe
 
         ![image](https://github.com/user-attachments/assets/5faf5950-9f8b-4be1-aac3-5f8ed2f660cf)
 
   - I created different access for each staff member:
-      - Jane Doe - Expanded Access
+      - Jane Doe - Full Access Admin
       - John Doe - Limited Access
 
         ![image](https://github.com/user-attachments/assets/e27a7802-4962-4b1e-88e7-d7ec98d1b3b0)
 
-  - I added one more department to add staff members:
+  - I created one more department and added each staff member to a department:
       - Support - John Doe
       - SysAdmins - Jane Doe
         
-      ![image](https://github.com/user-attachments/assets/1ea8de38-a7ab-40e8-8619-455cb93b4750)
-
+      ![image](https://github.com/user-attachments/assets/ba744187-a00b-4c0e-9038-407678d89ef9)
    
   - I created different help desk topics, so the end user can appropriately categorize their inquiry:
       - General Inquiry
@@ -99,28 +98,27 @@ After creating a virtual machine and virtual network in Azure, I downloaded all 
 
 <h3>Resolving Help Desk Tickets</h3>
 
-  - As Karen, I submitted a help desk ticket asking IT to prepare an assigned laptop for a new staff member. As the admin, I assigned the ticket to John Doe and let him know to complete this by EOD the day before the staff member starts. I then     changed the SLA to SLA-C considering it is a timely request but not a priority.
+  - As Karen, I submitted a help desk ticket asking IT to prepare an assigned laptop for a new staff member. As the admin, I assigned the ticket to John Doe and informed him to complete the request by end of the 2nd day. I then changed the SLA to SLA-C (Grace Period: 8 hours, Business Hours) because it is a timely request and not a high priority.
     
     ![image](https://github.com/user-attachments/assets/78ef4317-3d3a-42c2-8357-b7b6f3e124c7)
 
-
-    As John Doe, I made an internal comment that I can get the assignment done by noon the next day. Then, I sent a message to Karen asking for the employee’s name and ID number.
+    As John Doe, I made an internal comment stating I can finish the assignment by noon tomorrow. Then, I sent a message to Karen asking for the employee’s name and ID number.
 
     ![image](https://github.com/user-attachments/assets/a5592a69-3858-4c40-aad3-6273ea6d2fea)
 
-    I resolved the ticket and added a follow-up note stating that I delivered the computer.
+    I then resolved the ticket and added a follow-up note stating I delivered the computer.
 
     ![image](https://github.com/user-attachments/assets/10757f3d-cfc4-4f77-8e41-b1714ba34fac)
 
-  - As Bob, I submitted a help desk ticket letting IT know the entire team’s Adobe is down and essential for everyday work. As myself, I made an internal note saying the request is critical and needs to be solved ASAP. I changed the SLA to Sev-A and transferred the ticket over to the SysAdmins department.
+  - As Bob, I submitted a help desk ticket letting IT know the entire team’s Adobe is down and essential for everyday work. As the admin, I made an internal note saying the request is critical and needs to be solved ASAP then transferred the ticket over to the SysAdmins department. I changed the SLA to Sev-A (Grace Period: 1 hour, Schedule: 24/7) due to the high priority of the ticket. 
 
     ![image](https://github.com/user-attachments/assets/ad8affe7-4c19-4dab-a8e4-3d011944bcc7)
 
-    As Jane Doe, I assigned the ticket to myself and added an internal note that I would contact Bob shortly.
+    As Jane Doe, I assigned the ticket to myself and added an internal note stating I would contact Bob shortly.
 
     ![image](https://github.com/user-attachments/assets/59a901c3-94da-48ae-874c-1eb308618efb)
 
-    I then messaged Bob to call Jane to discuss more. I resolved the ticket and added a note stating Adobe needed updates and updated it for the entire team.
+    Continuing as Jane, I then messaged Bob to call me, so we could discuss more. I resolved the ticket and added a note stating Adobe needed updates, so I updated Adobe for Bob and the entire team.
 
     ![image](https://github.com/user-attachments/assets/231fa9f3-9931-4e82-b83b-10500e4ef1ea)
 
