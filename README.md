@@ -110,6 +110,7 @@ After creating a virtual machine and virtual network in Azure, I downloaded all 
 
     ![image](https://github.com/user-attachments/assets/10757f3d-cfc4-4f77-8e41-b1714ba34fac)
 
+
   - As Bob, I submitted a help desk ticket letting IT know the entire team’s Adobe is down and essential for everyday work. As the admin, I made an internal note saying the request is critical and needs to be solved ASAP then transferred the ticket over to the SysAdmins department. I changed the SLA to Sev-A (Grace Period: 1 hour, Schedule: 24/7) due to the high priority of the ticket. 
 
     ![image](https://github.com/user-attachments/assets/ad8affe7-4c19-4dab-a8e4-3d011944bcc7)
