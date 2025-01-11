@@ -22,7 +22,7 @@ In this demonstration, I will show how I used osTicket to address and solve imag
 
 <h3>Launching osTicket</h3>
 <p>
-After creating a virtual machine and virtual network in Azure, I downloaded all the required dependencies and configured my computer to enable osTicket: 
+After creating a virtual machine and virtual network in Azure, I downloaded all of the required dependencies and configured my computer to enable osTicket: 
 
   - Installed and enabled ISS with CGI
 
