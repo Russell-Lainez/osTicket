@@ -55,7 +55,7 @@ After creating a virtual machine and virtual network in Azure, I downloaded all 
       
       ![image](https://github.com/user-attachments/assets/d78cc230-9066-4d11-9d77-51c1819fa44f)
 
-  - I created end users, Bob and Karen, who would be able to submit tickets:
+  - I created end users (Bob and Karen) who would be able to submit tickets:
 
       ![image](https://github.com/user-attachments/assets/2c67ab83-f769-432e-815c-7e8f1ac23677)
 
