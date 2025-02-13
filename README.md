@@ -3,7 +3,7 @@
 </p>
 
 <h1>Resolving Help Desk Tickets through osTicket</h1>
-In this demonstration, I will show how I used osTicket to address and solve imaginary help desk tickets. I will walkthrough how I launched the osTicket program, how I configured osTicket to properly work tickets, and how I resolved incoming tickets. 
+In this demonstration, I will show how I used osTicket to address and solve imaginary help desk tickets. I will walk through how I launched the osTicket program, how I configured osTicket to properly manage tickets, and how I resolved incoming tickets. 
 
 
 <h2>Environments, Applications, and Services Used </h2>
